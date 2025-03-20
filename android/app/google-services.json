@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "123453117417",
+    "project_id": "car-diagnostics-app-32c38",
+    "storage_bucket": "car-diagnostics-app-32c38.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123453117417:android:5ddf65929aad79b8997178",
+        "android_client_info": {
+          "package_name": "com.example.car_diagnostics_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs54FoRVSGmHLcmlGEhArF_pvTDPkWc4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
