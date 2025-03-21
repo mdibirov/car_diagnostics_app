@@ -6,7 +6,7 @@ class ServiceRecord {
   String carId;
   String serviceType;
   int mileage;
-  int intervalKm;
+  int interval;
   double cost;
   DateTime date;
 
@@ -15,7 +15,7 @@ class ServiceRecord {
     required this.carId,
     required this.serviceType,
     required this.mileage,
-    required this.intervalKm,
+    required this.interval,
     required this.cost,
     required this.date,
   });
@@ -25,7 +25,7 @@ class ServiceRecord {
       'carId': carId,
       'serviceType': serviceType,
       'mileage': mileage,
-      'intervalKm': intervalKm,
+      'interval': interval,
       'cost': cost,
       'date': date.toIso8601String(),
     };
@@ -37,7 +37,7 @@ class ServiceRecord {
       carId: data['carId'],
       serviceType: data['serviceType'],
       mileage: data['mileage'],
-      intervalKm: data['intervalKm'],
+      interval: data['interval'],
       cost: data['cost'],
       date: DateTime.parse(data['date']),
     );
